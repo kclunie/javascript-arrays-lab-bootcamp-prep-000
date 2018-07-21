@@ -19,4 +19,7 @@ function destructivelyRemoveFirstKitten(){
  return window.kittens 
 }
 
-function appendKitten(name)
+function appendKitten(name){
+  [...window.kittens, "Broom"]
+  
+}
