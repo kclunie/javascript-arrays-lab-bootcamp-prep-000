@@ -24,4 +24,9 @@ function appendKitten(name){
   var Kittens = [...window.kittens, "Broom"]
   return Kittens
 }
-function 
+function prependKitten(name){
+   [...window.kittens, "Broom"]
+  var Kittens = [...window.kittens, "Broom"]
+  return Kittens
+  
+}
