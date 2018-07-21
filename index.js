@@ -21,5 +21,6 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
   [...window.kittens, "Broom"]
+  window.kittens = [...window.kittens, "Broom"]
   return window.kittens
 }
