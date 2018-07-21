@@ -13,3 +13,5 @@ function destructivelyRemoveLastKitten(){
     window.kittens.pop()
  return window.kittens 
 }
+
+function 
