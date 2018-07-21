@@ -38,7 +38,7 @@ function removeLastKitten(){
 }
 
 function removeFirstKitten(){
-    window.kittens.slice(0, window.kittens.length - 1)
-  var Kitt = window.kittens.slice(0, window.kittens.length - 1)
-  return Kitt
+    window.kittens.slice(1)
+  var Win = window.kittens.slice(1)
+  return Win
 }
