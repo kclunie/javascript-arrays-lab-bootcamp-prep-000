@@ -10,6 +10,6 @@ function destructivelyPrependKitten(name){
 }
 
 function destructivelyRemoveLastKitten(){
-    window.kittens.pop("Bob")
+    window.kittens.pop()
  return window.kittens 
 }
