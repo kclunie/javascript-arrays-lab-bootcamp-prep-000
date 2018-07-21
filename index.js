@@ -9,4 +9,6 @@ function destructivelyPrependKitten(name){
  return window.kittens 
 }
 
-function 
+function destructivelyRemoveLastKitten(){
+  
+}
