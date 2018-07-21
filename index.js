@@ -5,5 +5,6 @@ window.kittens.push("Ralph")
 }
 
 function destructivelyPrependKitten(name){
-  
+  window.kittens.unshift("Bob")
+ return window.kittens 
 }
